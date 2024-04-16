@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.transitionred{
+    transition: 2s;
+}
+.transitionred:hover{
+    background-color:red;
+ 
+} 
+
+.transitionyellow{
+    transition: 2s;
+}
+.transitionyellow:hover{
+    background-color:yellow;
+}
+
+.transitiongreen{
+    transition:2s;
+}
+.transitiongreen:hover{
+    background-color: green;
+}
+
+.transitionblue{
+    transition:2s;
+}
+.transitionblue:hover{
+    background-color: blue;
+}
+
+.transitionblack{
+    transition:2s;
+}
+.transitionblack:hover{
+    background-color:black;
+}
+
+
+
+
+
+.transitionsize{
+    transition:1.3s;
+}
+.transitionsize:hover{
+    transform:scale(1.4);
+
+}
+
+
+
+
+
+.transitionrotate{
+    transition:1.2s;
+}
+.transitionrotatez:hover{
+    transform:rotatez(240deg)
+}
+.transitionrotatex:hover{
+    transform:rotatex(240deg)
+}
+ .transitionrotate3d:hover{
+    transform:rotatey(240deg)
+}
+.transitionrotatey:hover{
+    transform:rotateY(240deg);
+}
+
+
+.transitiondlay{
+    transition:width 1s, height 2s;
+}
+.transitiondlay:hover{
+    width:500px;
+    height: 150px
+}
